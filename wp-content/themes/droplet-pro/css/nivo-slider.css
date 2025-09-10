@@ -27,8 +27,8 @@
 
 /* Direction nav styles (e.g. Next & Prev) */
 .nivo-directionNav a { border:0 none; display:block; height:60px; text-indent:-9999px; -webkit-transition:all 200ms ease-in-out 0s; transition:all 200ms ease-in-out 0s; width:60px; position:absolute; z-index:10; cursor:pointer; }
-a.nivo-prevNav { left:0; bottom: 0; background:url(./../images/slide-nav.png) no-repeat -14px center #C19977; }
-a.nivo-nextNav { right:0; bottom: 0; background:url(./../images/slide-nav.png) no-repeat -94px center #C19977; }
+a.nivo-prevNav { left:0; bottom: 0; background:url(https://andreas288.github.io/takaritunkmi//wp-content/themes/droplet-pro/images/slide-nav.png) no-repeat -14px center #C19977; }
+a.nivo-nextNav { right:0; bottom: 0; background:url(https://andreas288.github.io/takaritunkmi//wp-content/themes/droplet-pro/images/slide-nav.png) no-repeat -94px center #C19977; }
 	
 /* Control nav styles (e.g. 1,2,3...) */
 .nivo-controlNav { position: absolute; bottom: 24px; width: 100%; line-height: 10px; z-index: 10; text-align: center; }

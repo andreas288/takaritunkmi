@@ -179,7 +179,7 @@ section{ padding:60px 0; position:relative; }
 ** Slider Css
 *===============================================*/
 #slider{ width:100%; margin:0; padding:0; position:relative; }
-.slider-main{ min-height:600px; position:relative; background-image:url(./images/loading.gif); background-repeat:no-repeat; background-position:center center; background-size:auto; }
+.slider-main{ min-height:600px; position:relative; background-image:url(https://andreas288.github.io/takaritunkmi//wp-content/themes/droplet-pro/images/loading.gif); background-repeat:no-repeat; background-position:center center; background-size:auto; }
 .boxlayout .slider-main{ min-height:468px; }
 #slider a.button{ margin-right:20px; }
 .boxlayout .slider-main .nivo-controlNav{ bottom:8%; }
