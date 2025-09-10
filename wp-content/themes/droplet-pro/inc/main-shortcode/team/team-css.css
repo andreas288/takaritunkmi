@@ -1,0 +1,25 @@
+	@charset "utf-8";
+/* Our Team CSS Document */
+.teammember-list{ position:relative; -webkit-transform: perspective(1px) translateZ(0); transform:perspective(1px) translateZ(0); -webkit-transition-duration: 0.3s; transition-duration:0.3s; -webkit-transition-property:transform; transition-property:transform; margin:15px 0; overflow: hidden; border: 1px solid #eee; background-color: #ffffff; box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; }
+.team-thumbnail img{ -webkit-transition: opacity 1s, -webkit-transform 1s; transition: opacity 1s, transform 1s; -webkit-backface-visibility: hidden; backface-visibility: hidden; }
+.teammember-list:hover .team-thumbnail img{ -webkit-transform: scale3d(1.1,1.1,1); transform: scale3d(1.1,1.1,1); }
+
+.team-social-overlay{ margin: 20px 0 -57px 0; padding-top: 10px; min-height: 40px; display: block; overflow: hidden; position: relative; -webkit-transition: all 0.5s ease; transition: all 0.5s ease; }
+.team-social-overlay:before{ content: ''; display: block; height: 1px; background-color: #DDDDDD; width: 0; -webkit-transition: all 0.4s ease; transition: all 0.4s ease; transition-delay: 0s; position: relative; top: -9px; }
+
+.team-content{ padding: 18px; position: absolute; bottom: 7px; left: 7px; right: 7px; width: calc(100% - 14px); z-index: 99; text-align: left; background-color: #ffffff; overflow: hidden; }
+.team-content .team-name h4{ margin:0; font-size:24px; font-weight:500; margin-bottom: 5px; letter-spacing: 1px; }
+.team-content .team-name h4 a, .team-content .team-name span{ -webkit-transition:all 0.5s ease-in-out; transition:all 0.5s ease-in-out; }
+.team-name h4 a, .teammember-list:hover span{ color:#0041ac; }
+.teammember-list:hover h4 a, .team-name span{ color:#040506; }
+
+.member-social-icon a{ opacity: 0; transition-property: all; transition-duration: .3s; top: 15px; position: relative; margin: 3px 20px 3px 0 !important; display: inline-block; vertical-align: top; line-height: 1; will-change: transform; font-size: 18px; }
+
+.teammember-list:hover .team-social-overlay{ margin-bottom: -8px; }
+.teammember-list:hover .team-social-overlay::before{ width: 100%; transition-delay: 0.2s; }
+.teammember-list:hover .member-social-icon a{ opacity: 1; top: 0; transition-delay: .7s; }
+.teammember-list:hover .member-social-icon a:nth-child(1){ transition-delay: 0.3s; }
+.teammember-list:hover .member-social-icon a:nth-child(2){ transition-delay: 0.4s; }
+.teammember-list:hover .member-social-icon a:nth-child(3){ transition-delay: 0.5s; }
+.teammember-list:hover .member-social-icon a:nth-child(4){ transition-delay: 0.6s; }
+.teammember-list:hover .member-social-icon a:nth-child(5){ transition-delay: 0.7s; }

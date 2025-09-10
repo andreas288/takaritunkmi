@@ -1,0 +1,38 @@
+/* MIXTITUP PORTFOLIO */
+.portfoliowrap	{ overflow:visible;position:relative; margin-left: 0; margin-bottom:-80px; }
+.portfolio		{ overflow:visible !important; position:relative; }
+.portfolio img	{ width:100%; max-width:none !important; height:auto; display:block;}
+.threecol .entry	{ width:393px; float:left;overflow:visible;position:relative; }
+.fourcol .entry	{ width:25%; float:left;overflow:visible;position:relative; }
+.fivecol .entry	{ width:275px; float:left;overflow:visible;position:relative; }
+
+ul.portfoliofilter{ margin:20px 0 30px; padding:0; width:100%; text-align:center; }
+ul.portfoliofilter li { display: inline-block; margin:0px 6px 15px; font-weight:400; position: relative; font-size:14px; line-height:30px; text-shadow:none !important; padding:4px 16px; color:#ffffff; background-color:#222D3B; -moz-box-sizing:border-box; box-sizing:border-box; -webkit-order-sizing:border-box; -webkit-transition:0.5s; transition:0.5s; letter-spacing:1px; border-radius: 5px; }
+
+ul.portfoliofilter li:hover, ul.portfoliofilter li a:hover  { cursor:pointer; color:#ffffff; border-radius: 6px; background-color:#C19977; }
+ul.portfoliofilter li.active { color:#ffffff; background-color:#C19977; border-radius: 5px; }
+
+.isotope-item { z-index: 2; }
+.isotope-hidden.isotope-item { pointer-events: none; z-index: 1; }
+.isotope, .mix { -webkit-transition-duration: 0.5s; -moz-transition-duration: 0.5s; transition-duration: 0.5s;}
+.isotope { -webkit-transition-property: height, width; -moz-transition-property: height, width; transition-property: height, width; margin-top:60px; }
+.mix{ -webkit-transition-property: -webkit-transform, opacity; -moz-transition-property: -moz-transform, opacity; transition-property: transform, opacity; }
+
+.holderwrap { position:relative; -moz-box-sizing: border-box; box-sizing:border-box; -webkit-order-sizing:border-box; }
+.holderwrap h5{ display:none; }
+
+.controls {display: inline-block; width: 180px; margin: 0 0 30px; vertical-align: top; }
+.controls li { margin-left: 20px; cursor: pointer; list-style-type: square; }
+.controls li.active { font-weight: 700; }
+
+#mixitup { width: auto; text-align:center; }
+#mixitup .mix { display:none; opacity:0; vertical-align:top; -webkit-transition:ease; transition:ease; margin:0; }
+#mixitup .mix img{ display:block; width:100%; height:auto; }
+
+#mixitupgal { width: auto; text-align:center; margin: 0 -1.1%; }
+#mixitupgal .mix { display:none; opacity:0; vertical-align:top; -webkit-transition:ease; transition:ease; margin: 0 1.1% 30px; width:31%; }
+#mixitupgal .mix img{ display:block; width:100%; height:auto; }
+#mixitupgal .mix .gallery-image{ background-color: transparent; }
+
+#mixitupmenu { width: auto; margin: 0 -1%; }
+#mixitupmenu .mix { display:none; opacity:0; vertical-align:top; -webkit-transition:ease; transition:ease; margin: 0 1% 0; width:48%; }

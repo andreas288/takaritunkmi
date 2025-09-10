@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* Photo Gallery CSS Document */
+.gallery-wrap { position:relative; }
+.gallery{ text-align:center; -webkit-transition:all 0.5s ease-in-out; transition:all 0.5s ease-in-out; margin:15px 0; }
+.gallery-image{ position: relative; overflow: hidden; transition:all 0.4s ease-in-out; background-color: #ffffff; padding: 10px; box-shadow: 0 0 10px 0px rgba(27, 33, 37, 0.25); }
+.gallery-image img{ position:relative; display:block; transition:all 0.4s ease-in-out; -webkit-backface-visibility:hidden; backface-visibility:hidden; }
+.gallery-image:hover img { -webkit-transform:scale3d(1.2,1.2,1.2); -ms-transform:scale3d(1.2,1.2,1.2); transform:scale3d(1.2,1.2,1.2);  opacity:0.8; }
+.gal-icon{ width:50px; height:50px; border-radius:50px; margin:0 auto; text-align:center; line-height:50px; font-size:18px; position:absolute; top:20%; -webkit-transform:translateY(-50%); -ms-transform:translateY(-50%); transform:translateY(-50%); left:0; right:0; opacity:0; -webkit-transition:all 0.5s ease-in-out; transition:all 0.5s ease-in-out; overflow:hidden; }
+.gal-icon a{ background-color:#e8772e; display:block; color:#ffffff; }
+.gal-icon a:hover{ color:#ffffff; background-color:#2e2d2a; }
+.gallery-image:hover .gal-icon{ opacity:1; top:50%; }
+
+.gallery-wrap #mixitupgal .gallery-image, .gallery-wrap .gal-rotator .gallery-image{ margin:0; }
+.mix .gallery { margin: 0; }

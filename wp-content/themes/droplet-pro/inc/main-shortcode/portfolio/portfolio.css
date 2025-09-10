@@ -1,0 +1,33 @@
+.portfolio-main{ position:relative; text-align:center; }
+.portfolio-main .grid-col-two{ width:50%; float:none; }
+.portfolio-main .grid-col-three{ width:33.3333%; float:none; }
+.portfolio-main .grid-col-four{ width:25%; float:none; }
+
+.portfolio-holder{ position:relative; margin:2%; border-radius: 10px; overflow: hidden; }
+.portfolio-holder:before{ position: absolute; content: ''; right: 15px; left: 15px; top: 15px; bottom: 15px; height: auto; width: auto; opacity: 0; transform: scale(0.5); z-index: 1; transition: all 0.35s; border-radius: 10px; background-color: #86B049; }
+.portfolio-holder:hover::before{ opacity: 0.90; transform: scale(1); }
+
+
+.portfolio-image{ position: relative; overflow: hidden; }
+.portfolio-image img{ display: block; width: 100%; transform: scale(1.01); transition: all 1000ms; }
+.portfolio-holder:hover .portfolio-image img{ transform: scale(1.07) rotate(0.5deg); }
+
+.portfolio-enlarge a{ opacity: 0; transition: all 0.45s; width: 50px; height: 50px; border-radius: 50%; transform: translateY(-150px); line-height: 55px; font-size: 20px; position: absolute; z-index: 99; text-align: center; top: 45px; background-color: #ffffff; right: 45px; }
+.portfolio-enlarge a:last-child{ transform: translateY(-250px); }
+.portfolio-holder:hover .portfolio-enlarge a{ opacity: 1; transform: translateY(0px); }
+.portfolio-holder:hover .portfolio-enlarge a:last-child{ opacity: 1; transform: translateY(60px); }
+
+.portfolio-info{ position: absolute; bottom: 50px; left: 45px; right: 45px; text-align: left; z-index: 10; opacity: 0; transform: translateY(200px); transition: all 300ms ease; }
+.portfolio-info h3{ letter-spacing: 2px; margin-bottom: 5px; }
+.portfolio-info h3 a{ color: #ffffff; }
+.portfolio-info span{ letter-spacing: 1px; color: #151618; font-weight: 700; }
+.portfolio-holder:hover .portfolio-info{ opacity: 1; transform: translateY(0px); }
+
+/* Single Portfolio */
+.portfolio-metadeta{ background-color: #86B049; padding: 30px; border-radius: 0 30px; margin-bottom: 30px; }
+.portfolio-metadata-item{ text-align: center; width: 25%; color: #ffffff; font-size: 18px; }
+.portfolio-metadata-item:not(:last-child){ border-right: 1px solid #bfbfbf; }
+.portfolio-metadata-item strong{ display: block; font-size: 22px; margin-bottom: 5px; }
+.portfolio-metadata-item span{ text-transform: capitalize; }
+.portfolio-share ul.social-share-post{ text-align:center; margin:40px 0; border-radius:0; float:none; display:block; }
+.portfolio-share ul.social-share-post li{ border-radius:0; }
