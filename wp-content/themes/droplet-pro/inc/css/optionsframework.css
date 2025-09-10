@@ -196,7 +196,7 @@
 	margin-bottom:10px;
 }
 #optionsframework .screenshot .remove-image {
-	background:url("/wp-content/themes/droplet-pro/inc/images/ico-delete.png") no-repeat;
+	background:url("./../images/ico-delete.png") no-repeat;
 	border:medium none;
 	bottom:4px;
 	display:block;
